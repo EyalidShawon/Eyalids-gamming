@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav bar */
+nav .gamer{
+display: flex;
+margin: 29px 10px;
+
+}
+.gamer img{
+    height: 60px;
+    width: 60px;
+}
+nav{
+    display: flex;
+   width: 920px;
+   height: 130px;
+   justify-content: space-between;
+   align-items: center;
+}
+.follow{
+    display: flex;
+}
+.follow img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
